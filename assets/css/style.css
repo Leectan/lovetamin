@@ -3,11 +3,14 @@ body {
     /* background: linear-gradient(90deg, hsla(0, 100%, 99%, 1) 0%, hsla(0, 0%, 9%, 1) 100%);
     background: -moz-linear-gradient(90deg, hsla(0, 100%, 99%, 1) 0%, hsla(0, 0%, 9%, 1) 100%);
     background: -webkit-linear-gradient(90deg, hsla(0, 100%, 99%, 1) 0%, hsla(0, 0%, 9%, 1) 100%); */
-    background-color: #FFFAFA !important;    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFFAFA", endColorstr="#161616", GradientType=1); */
+    background-color: #FFFAFA !important;
+    /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFFAFA", endColorstr="#161616", GradientType=1); */
 }
-.bg-footer{
-    background-color: #FFFAFA !important;   
+
+.bg-footer {
+    background-color: #FFFAFA !important;
 }
+
 .bg-dark {
     background: black !important;
 }
@@ -20,7 +23,7 @@ nav {
     /* background: hsla(0, 100%, 99%, 1);
     background: -moz-linear-gradient(90deg, hsla(0, 100%, 99%, 1) 0%, hsla(0, 0%, 9%, 1) 100%);
     background: -webkit-linear-gradient(90deg, hsla(0, 100%, 99%, 1) 0%, hsla(0, 0%, 9%, 1) 100%); */
-    background: #FFFAFA!important;
+    background: #FFFAFA !important;
     /* filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FFFAFA", endColorstr="#161616", GradientType=1); */
 }
 
@@ -50,6 +53,9 @@ nav {
 .item:hover {
     color: rgb(103 41 95) !important;
     cursor: pointer;
+}
+.image-circuler{
+    border-radius:50%;height: 400px;width: 400px;object-fit: cover;
 }
 
 .text-color-secondary {
@@ -102,7 +108,7 @@ nav {
 
 .btn--small {
     background: hsla(0, 100%, 99%, 1);
-    
+
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
@@ -215,18 +221,18 @@ nav {
     border-bottom-right-radius: 12px;
 }
 
-
-.h-md-500 {
-    height: 500px;
-}
-
 @media (max-width: 767px) {
     .bltblb-12 {
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
         border-bottom-left-radius: 0px;
     }
-
+    .image-circuler{
+        height: 250px;width: 250px;
+    }
+    .fs-50 {
+        font-size: 27px;
+    }
     .brtbrb-12 {
         border-top-right-radius: 0px;
         border-bottom-right-radius: 12px;
@@ -256,4 +262,10 @@ nav {
         width: 200px;
         height: 203.396px;
     } */
+}
+
+@media(min-width:768px) {
+    .h-md-500 {
+        height: 500px;
+    }
 }
