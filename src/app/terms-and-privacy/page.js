@@ -238,21 +238,6 @@ const TermsAndPrivacy = () => {
 						[email@lovetamin.com (mailto:email@lovetamin.com)].
 					</p>
 				</section>
-				{/*
-				
-				
-				  
-			
-			
-	
-			
-	
-			 
-			
-			
-
-			
-			 */}
 			</div>
 			<Footer />
 		</main>
