@@ -7,7 +7,7 @@ export default function Footer() {
 			title: "Index",
 			links: [
 				{ text: "Mission", href: "#mission" },
-				{ text: "Contact", href: "#" },
+				{ text: "Contact", href: "/contact" },
 			],
 		},
 		{
