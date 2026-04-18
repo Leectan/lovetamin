@@ -38,9 +38,9 @@ const TermsAndPrivacy = () => {
 						Lovetamin.
 					</p>
 					<p>
-						<strong>User Conduct:</strong> No harassment, spamming, or unauthorized
-						disclosure of personal information. Hate speech and discrimination are
-						prohibited.
+						<strong>User Conduct:</strong> You may not harass others, spam, impersonate
+						someone else, or misuse personal information. Hate speech, discrimination,
+						and illegal activity are prohibited.
 					</p>
 				</section>
 				<section className="mb-8">
@@ -57,13 +57,22 @@ const TermsAndPrivacy = () => {
 					</p>
 				</section>
 				<section className="mb-8">
-					<h2 className="text-xl font-semibold text-gray-900 mb-2">4. User Content</h2>
+					<h2 className="text-xl font-semibold text-gray-900 mb-2">
+						4. User Content and AI Features
+					</h2>
 					<p>
 						<strong>Ownership:</strong> You retain ownership of the content you post on
 						Lovetamin, but by posting, you grant us a non-exclusive, royalty-free,
 						worldwide license to use, store, reproduce, modify, create derivative works,
 						communicate, publish, and distribute such content for the purpose of
 						operating, promoting, and improving our service.
+					</p>
+					<p>
+						<strong>Optional AI Features:</strong> Some optional Lovetamin features offer
+						AI-assisted guidance, reflections, avatar generation, and personalization.
+						These Optional AI Features are off unless you explicitly turn them on inside
+						the app. Core matching, messaging, and community features do not require
+						Optional AI Features.
 					</p>
 					<p>
 						<strong>Content Restrictions:</strong> Prohibited content includes but is
@@ -82,14 +91,13 @@ const TermsAndPrivacy = () => {
 						5. Fees and Payment
 					</h2>
 					<p>
-						<strong>Subscription Models:</strong> Lovetamin offers premium features
-						through subscription. Details on pricing, billing cycles, and auto-renewal
-						are available in our subscription section.
+						<strong>In-App Purchases:</strong> Lovetamin may offer optional premium
+						subscriptions or other paid digital features through in-app purchase flows
+						inside the mobile app. Availability may vary by build, market, or platform.
 					</p>
 					<p>
-						<strong>Refund Policy:</strong> Refunds are typically not available for
-						subscriptions unless required by law or in cases of billing errors.
-						Exceptions will be handled on a case-by-case basis.
+						<strong>Refund Policy:</strong> Refund requests are subject to the applicable
+						app store or platform billing rules and any rights required by law.
 					</p>
 				</section>
 				<section className="mb-8">
@@ -122,8 +130,8 @@ const TermsAndPrivacy = () => {
 				<section className="mb-8">
 					<h2 className="text-xl font-semibold text-gray-900 mb-2">8. Governing Law</h2>
 					<p>
-						These Terms are governed by the laws of [Your Jurisdiction], without regard
-						to its conflict of law principles.
+						These Terms are governed by the laws of the United States, without regard to
+						its conflict of law principles.
 					</p>
 				</section>
 				<section className="mb-8">
@@ -143,12 +151,19 @@ const TermsAndPrivacy = () => {
 				<section className="mb-8">
 					<h2 className="text-xl font-semibold text-gray-900 mb-2">1. Data Collection</h2>
 					<p>
-						<strong>Types of Data:</strong> We collect personal data such as names,
-						photos, dating preferences, and location data.
+						<strong>Types of Data:</strong> We collect personal data such as name, email
+						address, profile photos, profile responses, dating preferences, partner-mode
+						inputs, and location data that you choose to provide.
 					</p>
 					<p>
-						<strong>Usage Data:</strong> Helps improve functionality and personalize
-						user experience.
+						<strong>Usage Data:</strong> We also collect usage and device information to
+						operate the app, improve functionality, prevent abuse, and personalize your
+						experience.
+					</p>
+					<p>
+						<strong>Verification Data:</strong> If you choose identity or trust-related
+						verification flows, we collect the submitted images and related metadata
+						needed to process that request.
 					</p>
 				</section>
 				<section className="mb-8">
@@ -156,67 +171,93 @@ const TermsAndPrivacy = () => {
 						2. Use of Information
 					</h2>
 					<p>
-						<strong>Purpose:</strong> Used for matchmaking, service enhancements, and
-						marketing (with user consent).
+						<strong>Purpose:</strong> We use your information to create and manage your
+						account, power matching and partner features, provide safety tooling,
+						deliver support, and improve Lovetamin.
 					</p>
 					<p>
-						<strong>Third Parties:</strong> Data may be shared with service providers
-						for payment processing or legal compliance.
-					</p>
-				</section>
-				<section className="mb-8">
-					<h2 className="text-xl font-semibold text-gray-900 mb-2">3. Data Sharing</h2>
-					<p>
-						<strong>With Consent:</strong> We might share your profile information with
-						other users or for social media integration with your consent.
-					</p>
-					<p>
-						<strong> Legal Compliance:</strong> We may disclose your information in
-						response to subpoenas or when required by law enforcement.
-					</p>
-				</section>
-				<section className="mb-8">
-					<h2 className="text-xl font-semibold text-gray-900 mb-2">4.Security</h2>
-					<p>
-						<strong>Protection Measures:</strong> We employ industry-standard security
-						measures to protect your data, including encryption and secure server
-						storage.
-					</p>
-					<p>
-						<strong> Data Breach:</strong> In case of a breach, we will notify you
-						promptly and take appropriate steps to mitigate risks.
-					</p>
-				</section>
-				<section className="mb-8">
-					<h2 className="text-xl font-semibold text-gray-900 mb-2">5.User Rights</h2>
-					<p>
-						<strong> Access and Correction:</strong> You can request access, correction,
-						or deletion of your personal data at any time through your account settings
-						or by contacting us.
-					</p>
-					<p>
-						<strong> Opt-Out:</strong>You can opt out of marketing emails, and we
-						provide controls over how your data is used for matching.
-					</p>
-				</section>
-				<section className="mb-8">
-					<h2 className="text-xl font-semibold text-gray-900 mb-2">6. Data Retention</h2>
-					<p>
-						<strong> Policy:</strong>
-						We retain your data for as long as your account is active or as needed to
-						provide our services. Post-account deletion, data is anonymized or deleted
-						within 30 days, unless legally required to retain.
+						<strong>Marketing:</strong> We may use your information for product updates
+						or marketing only where permitted by law and, when required, with your
+						consent.
 					</p>
 				</section>
 				<section className="mb-8">
 					<h2 className="text-xl font-semibold text-gray-900 mb-2">
-						7.International Transfers
+						3. AI Processing and Service Providers
 					</h2>
 					<p>
-						<strong> Data Storage: </strong>
-						Your data might be processed in countries outside your jurisdiction. We
-						ensure this data transfer complies with applicable data protection laws,
-						using mechanisms like Standard Contractual Clauses or Privacy Shield.
+						<strong>Explicit In-App Consent:</strong> Lovetamin requires users to
+						explicitly consent inside the app before Optional AI Features are enabled.
+						If you do not consent, those Optional AI Features remain unavailable, while
+						core matching, messaging, and community features continue to work normally.
+					</p>
+					<p>
+						<strong>AI Service Providers:</strong> When you enable Optional AI Features,
+						selected user-provided text and limited relevant profile context may be
+						processed by service providers that help us operate those features,
+						including OpenAI, Pinecone, and Amazon Web Services.
+					</p>
+					<p>
+						<strong>How We Use Those Providers:</strong> These providers support optional
+						coaching guidance, optional personalization, AI-assisted avatar generation,
+						and related retrieval or infrastructure functions inside Lovetamin. Separate
+						verification or trust-and-safety flows may also use Amazon Web Services when
+						you choose to use those flows.
+					</p>
+				</section>
+				<section className="mb-8">
+					<h2 className="text-xl font-semibold text-gray-900 mb-2">
+						4. Sharing and Legal Disclosure
+					</h2>
+					<p>
+						<strong>With Other Users:</strong> Your profile information is shared with
+						other Lovetamin users as part of the service experience.
+					</p>
+					<p>
+						<strong>Legal Compliance:</strong> We may disclose information when required
+						by law, to enforce our terms, or to protect the rights, safety, or security
+						of Lovetamin, our users, or the public.
+					</p>
+				</section>
+				<section className="mb-8">
+					<h2 className="text-xl font-semibold text-gray-900 mb-2">
+						5. Security and Retention
+					</h2>
+					<p>
+						<strong>Protection Measures:</strong> We use reasonable administrative,
+						technical, and organizational safeguards designed to protect your
+						information.
+					</p>
+					<p>
+						<strong>Retention:</strong> We retain personal data for as long as your
+						account is active or as needed to provide the service, comply with legal
+						obligations, resolve disputes, and enforce agreements.
+					</p>
+				</section>
+				<section className="mb-8">
+					<h2 className="text-xl font-semibold text-gray-900 mb-2">
+						6. User Choices and Rights
+					</h2>
+					<p>
+						<strong>Access and Deletion:</strong> You may request access to, correction
+						of, or deletion of your personal data by using in-app settings or
+						contacting us.
+					</p>
+					<p>
+						<strong>Consent Choices:</strong> You may decline AI processing, but some
+						Optional AI Features will not be available unless consent is provided. You
+						may also turn Optional AI Features back off later in Settings &gt; Privacy
+						&gt; Optional AI Features.
+					</p>
+				</section>
+				<section className="mb-8">
+					<h2 className="text-xl font-semibold text-gray-900 mb-2">
+						7. International Transfers
+					</h2>
+					<p>
+						<strong>Data Processing Locations:</strong> Lovetamin is focused on the
+						United States, but some service providers may process data in other
+						jurisdictions where they operate.
 					</p>
 				</section>
 				<section className="mb-8">
@@ -234,8 +275,14 @@ const TermsAndPrivacy = () => {
 						9. Contact Information
 					</h2>
 					<p>
-						For any questions or to exercise your data rights, please contact us at
-						[email@lovetamin.com (mailto:email@lovetamin.com)].
+						For any questions or to exercise your data rights, please contact us at{" "}
+						<a
+							href="mailto:info@lovetamin.love"
+							className="text-[rgb(103,41,95)] underline"
+						>
+							info@lovetamin.love
+						</a>
+						.
 					</p>
 				</section>
 			</div>

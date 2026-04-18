@@ -16,6 +16,7 @@ export function WaitlistForm({ variant = "dark", source = "unknown" }: WaitlistF
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error" | "exists">("idle");
   const [errorMsg, setErrorMsg] = useState("");
   const [position, setPosition] = useState<number | null>(null);
+  const [approvedInMinutes, setApprovedInMinutes] = useState<number | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -43,7 +44,8 @@ export function WaitlistForm({ variant = "dark", source = "unknown" }: WaitlistF
         setStatus("exists");
       } else {
         setStatus("success");
-        setPosition(data.position);
+        setPosition(data.position ?? null);
+        setApprovedInMinutes(data.approvedInMinutes ?? null);
       }
     } catch {
       setStatus("error");
@@ -75,8 +77,8 @@ export function WaitlistForm({ variant = "dark", source = "unknown" }: WaitlistF
         </h3>
         <p className={variant === "dark" ? "text-white/60" : "text-gray-500"}>
           {status === "success"
-            ? `You're #${position} on the waitlist. We'll reach out soon.`
-            : "We already have your email. Stay tuned!"}
+            ? `You're on the waitlist. We'll email you${approvedInMinutes ? ` in about ${approvedInMinutes} minutes` : ""} when your access is ready.`
+            : "We already have your email. Please use the most recent access link we sent you."}
         </p>
       </motion.div>
     );

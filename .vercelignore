@@ -1,0 +1,7 @@
+.cursor/
+.claude/
+.grok/
+workflow_state.md
+CLAUDE.md
+project_config.md
+.DS_Store

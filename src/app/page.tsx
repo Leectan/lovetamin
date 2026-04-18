@@ -107,7 +107,7 @@ function HeroSection() {
           >
             <Heart className="w-4 h-4 text-brand-500" fill="currentColor" />
             <span className="text-brand-600 text-sm font-medium">
-              Not designed to be deleted
+              A calling to what makes us human
             </span>
           </motion.div>
 
@@ -117,8 +117,8 @@ function HeroSection() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-gray-900 leading-[1.1] mb-6"
           >
-            Nurture Relationships,{" "}
-            <span className="text-gradient-light">Not Just Swipe</span>
+            Nurture the Bonds That{" "}
+            <span className="text-gradient-light">Make Us Human</span>
           </motion.h1>
 
           <motion.p
@@ -127,9 +127,7 @@ function HeroSection() {
             transition={{ duration: 0.8, delay: 0.25 }}
             className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed"
           >
-            Lovetamin is the platform where couples, friends, and family come to
-            deepen connections — not just make them. A place you&apos;ll return to
-            long after the first hello.
+            As technology transforms how we live, authentic connection remains our greatest joy. Lovetamin is your dedicated space to consciously nurture the people who matter most—your partner, your family, and your closest friends. Because real love is a deeply human journey.
           </motion.p>
 
           <motion.div
@@ -140,7 +138,7 @@ function HeroSection() {
           >
             <Link href="/mystery">
               <Button variant="primary" size="lg">
-                Get Early Access
+                Start Nurturing
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </Link>
@@ -150,7 +148,7 @@ function HeroSection() {
                 size="lg"
                 className="text-gray-600 hover:text-gray-900 hover:bg-gray-100"
               >
-                See How It Works
+                Discover Our Philosophy
               </Button>
             </a>
           </motion.div>
@@ -195,24 +193,24 @@ function HeroSection() {
 function PhilosophySection() {
   const comparisons = [
     {
-      old: "Swiping",
-      oldDesc: "Dopamine hit — a game of snap judgments based on photos alone.",
-      new: "Nurturing",
-      newDesc: "Oxytocin — deep, meaningful interactions that build real bonds.",
+      old: "Disposable Connections",
+      oldDesc: "The endless cycle of surface-level interactions and fleeting moments.",
+      new: "Lifelong Companionship",
+      newDesc: "Deep, meaningful interactions that build resilient, real-world bonds.",
       icon: RefreshCw,
     },
     {
-      old: "Delete after meeting",
-      oldDesc: "Apps designed to become irrelevant once you match.",
-      new: "Stay for the journey",
-      newDesc: "A companion for every stage — from first date to forever.",
+      old: "Digital Distraction",
+      oldDesc: "Endless scrolling that keeps you disconnected from the present.",
+      new: "Authentic Vulnerability",
+      newDesc: "Honest, unfiltered conversations that reveal the depths of who you really are.",
       icon: Heart,
     },
     {
-      old: "Algorithm-driven",
-      oldDesc: "AI decides who you see. Quantity over quality.",
-      new: "Intention-driven",
-      newDesc: "You set goals, spark conversations, and build together.",
+      old: "Passive Engagement",
+      oldDesc: "Letting algorithms decide how and when you connect with others.",
+      new: "Real-World Presence",
+      newDesc: "Technology designed to get you off the screen and into each other's lives.",
       icon: Target,
     },
   ];
@@ -221,9 +219,9 @@ function PhilosophySection() {
     <section id="philosophy" className="py-24 md:py-32 bg-white relative">
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading
-          badge="Our Philosophy"
-          title="Dating Was Never Meant to Be a Game"
-          subtitle="We believe relationships thrive on shared effort, honest conversations, and mutual growth — not on who has the best profile photo."
+          badge="Our Manifesto"
+          title="Technology Evolves. The Human Heart Remains."
+          subtitle="We are living in an era of incredible digital advancement. Lovetamin is your quiet room—a mindful space built to cultivate deep, intentional relationships that ground you in the real world and celebrate our shared humanity."
         />
 
         <div className="grid md:grid-cols-3 gap-6 md:gap-8">
@@ -273,44 +271,44 @@ function FeaturesSection() {
   const features = [
     {
       icon: Target,
-      title: "Shared Goals",
+      title: "Shared Evolution",
       description:
-        "Set a goal together — learn a language, train for a 5K, cook a new recipe each week. Turn 'getting to know you' into 'growing with you'.",
+        "Grow together, not apart. Whether it's training for a marathon, learning a language, or mastering a recipe, turn 'getting to know you' into 'building a life with you'.",
       gradient: "from-brand-500 to-brand-600",
     },
     {
       icon: MessageCircleHeart,
-      title: "Spark Questions",
+      title: "Soul-Deep Prompts",
       description:
-        "Thoughtful conversation prompts that go deeper than surface-level small talk. Discover values, dreams, and perspectives that matter.",
+        "Move past surface-level small talk. Explore guided, psychologically-backed questions that uncover values, childhood dreams, and the perspectives that truly matter.",
       gradient: "from-warm-500 to-brand-500",
     },
     {
       icon: Users,
-      title: "Friends & Family Mode",
+      title: "The Village Mode",
       description:
-        "Not just for couples. Strengthen any relationship that matters — friendships, siblings, parent-child bonds. Every connection deserves nurturing.",
+        "Love isn't just romantic. Strengthen the core pillars of your life—your lifelong friendships, your siblings, your parents. Every vital connection deserves a sanctuary.",
       gradient: "from-brand-400 to-warm-400",
     },
     {
       icon: ShieldCheck,
-      title: "Safe & Intentional",
+      title: "A Sacred Digital Space",
       description:
-        "No catfishing. No endless scrolling. Every feature is designed to encourage real, authentic interactions between real people.",
+        "No endless scrolling. No gamification. Just a calm, highly intentional environment designed exclusively for authentic interactions between real people.",
       gradient: "from-brand-600 to-brand-400",
     },
     {
       icon: Zap,
       title: "Relationship Insights",
       description:
-        "Track the health of your connections over time. See what's working, what needs attention, and celebrate your growth together.",
+        "Track the health of your connections over time. See what's working, what needs attention, and celebrate your growth together as you build lasting memories.",
       gradient: "from-warm-400 to-brand-400",
     },
     {
       icon: Sparkles,
-      title: "Human-First in an AI World",
+      title: "Unapologetically Human",
       description:
-        "In a world of AI-generated messages and automated interactions, Lovetamin puts genuine human connection back at the center.",
+        "In a world where convenience often replaces effort, we fiercely protect and celebrate the beautiful, messy, irreplaceable nature of genuine human connection.",
       gradient: "from-brand-500 to-warm-500",
     },
   ];
@@ -319,9 +317,9 @@ function FeaturesSection() {
     <section id="features" className="py-24 md:py-32 bg-brand-50/30 relative">
       <div className="max-w-7xl mx-auto px-6">
         <SectionHeading
-          badge="Features"
-          title="Built for Depth, Not Volume"
-          subtitle="Every feature exists to help you build stronger, more meaningful relationships — whether you're just meeting or celebrating your 10th anniversary."
+          badge="The Architecture of Connection"
+          title="Technology That Serves The Heart"
+          subtitle="Technology shouldn't replace human effort; it should facilitate it. Every element of Lovetamin is designed to bridge the gap between digital convenience and profound, real-world intimacy."
         />
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -361,7 +359,7 @@ function FeaturesSection() {
 // --------------- Difference Section (Social Proof / Why) ---------------
 function DifferenceSection() {
   const stats = [
-    { number: "80%", label: "of dating app users report burnout from swiping" },
+    { number: "80%", label: "of people crave deeper, more meaningful interactions" },
     { number: "3x", label: "longer conversations when started with a shared goal" },
     { number: "92%", label: "of couples say shared activities strengthened their bond" },
   ];
@@ -379,9 +377,9 @@ function DifferenceSection() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <SectionHeading
-          badge="Why Lovetamin"
-          title="The World Doesn't Need Another Swiping App"
-          subtitle="It needs a place where people come back — not to find someone new, but to strengthen what they already have."
+          badge="The Paradigm Shift"
+          title="The Ultimate Luxury is Undivided Human Presence"
+          subtitle="In a fast-paced digital world, the most valuable gift we can offer one another is our authentic, focused attention."
           dark
         />
 
@@ -414,9 +412,7 @@ function DifferenceSection() {
         >
           <Card variant="glass-dark" className="p-10 md:p-14">
             <p className="text-xl md:text-2xl text-white/80 font-serif leading-relaxed italic">
-              &ldquo;We don&apos;t just want you to find someone. We want you to
-              build something extraordinary with them — and with every person
-              who matters in your life.&rdquo;
+              &ldquo;We didn&apos;t build Lovetamin just to help you find someone new. We built it to help you profoundly discover the people who are already right in front of you—and celebrate the beautiful journey of growing together.&rdquo;
             </p>
             <p className="text-brand-400 mt-6 font-medium">— The Lovetamin Team</p>
           </Card>
@@ -443,7 +439,7 @@ function CTASection() {
         >
           <Sparkles className="w-4 h-4 text-brand-500" />
           <span className="text-brand-600 text-sm font-medium">
-            Launching Soon
+            Join The Movement
           </span>
         </motion.div>
 
@@ -454,7 +450,7 @@ function CTASection() {
           transition={{ delay: 0.1 }}
           className="text-3xl md:text-5xl font-serif font-bold text-gray-900 mb-4"
         >
-          Ready to Nurture What Matters?
+          Nurture Your Human Connections
         </motion.h2>
 
         <motion.p
@@ -464,8 +460,7 @@ function CTASection() {
           transition={{ delay: 0.2 }}
           className="text-lg text-gray-500 mb-10 max-w-xl mx-auto"
         >
-          Join the waitlist and be among the first to experience a platform
-          built for real connection.
+          Step into a space built to celebrate and deepen the relationships that make life beautiful. Join the waitlist today.
         </motion.p>
 
         <motion.div
